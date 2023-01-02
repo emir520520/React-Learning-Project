@@ -1,4 +1,5 @@
 import {useState} from "react";
+import "./css/searchBar.css";
 
 function SearchBar({fun}) {
     const [term, updateTerm]=useState('');
@@ -12,11 +13,13 @@ function SearchBar({fun}) {
   }
 
   return (
-      <div>
-          <h3>Search for images</h3>
+      <div id="searchBar">
+          <div id="form">
+              <h3>Search for images</h3>
 
-          <input value={term} onChange={handleInputChange}/>
-          <button onClick={handleSearch}>Search</button>
+              <input value={term} onChange={handleInputChange}/>
+              <button onClick={handleSearch}>Search</button>
+          </div>
       </div>
     );
 }
