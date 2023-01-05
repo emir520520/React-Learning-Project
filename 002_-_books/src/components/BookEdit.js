@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-function BookEdit({book, fun_editBook}) {
+function BookEdit({book, fun_editBook, fun_saveEdit}) {
   const [title, updateTitle]=useState(book.title);
 
   function handleChange(event) {
@@ -11,6 +11,8 @@ function BookEdit({book, fun_editBook}) {
     event.preventDefault();
 
     fun_editBook(book.id, title);
+
+    fun_saveEdit();
   }
 
   return <div>

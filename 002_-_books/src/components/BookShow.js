@@ -14,9 +14,15 @@ function BookShow({book, fun_deleteBook, fun_editBook}) {
     updateEditStatus(newStatus);
   }
 
+  function saveEdit(){
+    const newStatus='false';
+
+    updateEditStatus(newStatus);
+  }
+
   let content=<h3>{book.title}</h3>
   if(editStatus==='true'){
-    content=<BookEdit book={book} fun_editBook={fun_editBook}/>;
+    content=<BookEdit book={book} fun_editBook={fun_editBook} fun_saveEdit={saveEdit}/>;
   }
 
   return <div className="book-show">
