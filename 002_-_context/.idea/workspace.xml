@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9402788-5fdc-4c67-9b73-ce7e7b3bb56f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hook/UseBookContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BookCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookCreate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BookEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BookList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BookShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BookShow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/books.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +60,7 @@
       <workItem from="1673190883067" duration="6406000" />
       <workItem from="1673270671419" duration="67000" />
       <workItem from="1673270880974" duration="69000" />
-      <workItem from="1673270991941" duration="1467000" />
+      <workItem from="1673270991941" duration="3804000" />
     </task>
     <servers />
   </component>
